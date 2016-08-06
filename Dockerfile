@@ -1,4 +1,4 @@
-FROM java:8
+FROM frolvlad/alpine-oraclejdk8:slim 
 MAINTAINER mlabouardy <mohamed@labouardy.com>
 
 COPY . /
